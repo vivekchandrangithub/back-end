@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: backend
+    env:
+      NODE_ENV: development
+    buildCommand: npm install
+    startCommand: node server.js
+    port: 3001
